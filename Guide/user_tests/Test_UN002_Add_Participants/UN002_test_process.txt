@@ -1,0 +1,11 @@
+step 1:
+Find the project.yml file
+
+step 2:
+Edit the project.yml file according to the information provide in the UN002_user_inputs.txt file
+
+step 3:
+Check and delete the previous workspace
+
+step 4:
+Run command 'bash provision.sh'

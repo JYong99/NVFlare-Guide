@@ -1,0 +1,4 @@
+Information table
+
+Setup Script Path:      /home/ubuntu/setup.sh
+Requirements File Path: /home/ubuntu/requirements.txt

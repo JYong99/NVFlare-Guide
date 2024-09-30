@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Shutdown Federated Learning Environment
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+
+1. Login to the admin console 
+ 
+  Access the admin console by running the command 'bash fl_admin.sh' 
+
+2. Shutdown Clients
+
+  Run the command "check_status server" in the admin console, it will display number of registered clients.
+
+  Run the command "shutdown client" in the admin console.
+
+  When prompt to enter User Name, enter the admin's 'name' in email format.
+
+  The console will log all clients are shutting down.
+
+  To confirm all client have successfully shutdown, run the command "check_status server" again in the admin 
+  console, it will display "Registered clients: 0" at the bottom.
+
+3. Shutdown Server
+
+  Run the command "shutdown client" in the admin console.
+
+  When prompt to enter User Name, enter the admin's 'name' in email format.
+
+  The console will log "FL app has been shutdown", and end with a "Goodbye!" message, and both the server
+  and admin services will shutdown successfully.
+--------------------------------------------------------------------------------------------------------

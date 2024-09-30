@@ -1,0 +1,8 @@
+step 1:
+Locate the startup kits 
+
+step 2:
+Transfer the startup kits using SCP to the respective clients according to the information provide in the UN003_user_inputs.txt file
+
+step 3:
+Ensured that the files have been transferred successfully

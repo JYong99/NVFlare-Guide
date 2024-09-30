@@ -1,0 +1,14 @@
+step 1:
+Pip install nvflare on the AWS EC2 instance
+
+step 2:
+Run command 'nvflare provision' and select option 2 for non-HA to generate the project.yml file
+
+step 3:
+Run command 'ec2metadata' and get the public-ipv4 address: 13.212.96.191
+
+step 4:
+Edit the project.yml file according to the information provided in the _UN001_user_inputs.txt file
+
+step 5:
+Run command 'bash provision.sh'

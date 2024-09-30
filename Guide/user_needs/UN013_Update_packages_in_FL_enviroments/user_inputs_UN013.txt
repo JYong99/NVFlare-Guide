@@ -1,0 +1,4 @@
+Information table
+
+Update Script Path:     The absolute path of the update.sh script
+Requirements File Path: The absolute path of the requirements.txt file

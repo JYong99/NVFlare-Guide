@@ -1,0 +1,17 @@
+{
+    "data_path": "CL100k",
+    "data_index": {
+        "valid": {
+            "start": 0,
+            "end": 2000
+        },
+        "site-1": {
+            "start": 2000,
+            "end": 6000
+        },
+        "site-2": {
+            "start": 6000,
+            "end": 10000
+        }
+    }
+}

@@ -1,0 +1,17 @@
+step 1:
+Login to the admin console and enter the username prompt with the information provided in UN012_user_inputs.txt
+
+step 2:
+Run the command 'list_jobs' to display all the previously submitted jobs and their details
+
+step 3: 
+Noted down the job ID, details can be seen in UN012_user_inputs.txt
+
+step 4:
+Run the command 'download_job f3a0227a-d013-4724-b681-df5efdfc7859'
+
+step 5:
+Edit the retrieve.sh script to the information provided in UN012_user_inputs.txt
+
+step 6:
+Run the command 'bash retrieve.sh'

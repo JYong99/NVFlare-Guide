@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Train a New XGBoost Model
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Server, Admin & Clients services all started and successfully connected.
+2. Clients have the absolute path of the folder containing the header and dataset file in csv format.
+3. The header and dataset files are named in the following format: 
+    -header:  {site_name}_header.csv
+    -dataset: {site_name}.csv
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+
+There are a few configuration to be made on the job folder template provided, "xgboost_train".
+
+1. Edit the meta.conf
+  
+  The file can be located at: /xgboost_train/meta.conf
+
+  The meta configuration file maps the app folder to their respective recipient, so that they only receives
+  what their are suppose to.
+
+  The 'name' can be set to any name for the job, and 'min_clients' can be set to the minimum number of Clients
+  needed for this job.
+
+  'app_server' can remain as it is, unless you change the name of the folder.
+
+  'app_site' requires the value to be edited to the name of the clients that is part of this task.
+  The name of the clients should follow the names set during provision.
+  
+2. Edit the server's config file
+  
+  The file can be located at: /xgboost_train/app_server/config/config_fed_server.conf
+
+  The server's config file is to map the components needed for this job to the location of the file and also 
+  input any necessary args for the components.
+
+  For performing training for xgboost, the server requires the workflow, persistor, shareable generator and aggregator.
+
+  For this example, you just need to edit the workflow's args and leave the other components as it is.
+
+  The main args to edit are 'min_clients' and 'num_rounds', which can be set to any value up to the 
+  project admin's decision.
+
+3. Edit the clients' config file
+  
+  The file can be located at: /xgboost_train/app_site/config/config_fed_client.conf
+
+  For the clients' config file, you have to edit one item, which is the 'app_config'. You have to set the 
+  '--data_root_dir' followed by the absolute path of the folder containing the header and dataset csv files.
+
+4. Submit job folder
+  
+  The job folder has to be submitted through the admin console to the server to start the training process.
+
+  Run the command 'submit_job /path_to_job_folder/xgboost_train' on the admin console, replacing the 
+  '/path_to_job_folder/xgboost_train' to the absolute path of the xgboost_train job folder.
+
+  After the job folder is submitted, it will display 'Submitted job' followed by the job id and you can observe
+  the server and clients performing the training.
+
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,7 @@
+Information table
+
+Model Name:                   The name of the XGBoost Json Model (default: xgboost_model.json).
+Sites' dataset absolute path: All of the sites' location of the dataset to be tested on the global model.
+Clients' Names:               The name of all clients configured during provision.
+Admin's name:                 The name of the admin configured during provision in email format.
+Job folder absolute path:     The absolute path of the job folder to be submitted to the server.

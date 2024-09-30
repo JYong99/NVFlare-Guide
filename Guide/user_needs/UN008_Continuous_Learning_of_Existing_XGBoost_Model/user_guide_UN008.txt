@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Perform Coninuous Learning for Existing XGBoost Model
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Server, Admin & Clients services all started and successfully connected.
+2. Clients have the absolute path of the folder containing the header and dataset file in csv format.
+3. The header and dataset files are named in the following format: 
+    -header:  {site_name}_header.csv
+    -dataset: {site_name}.csv
+4. Have completed UN007 and have the training job folder
+5. Have an existing xgboost model in json format
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+
+The configuration setting is the same as UN007, refer to UN007 to setup the basic job folder. 
+You can refer to the template 'xgboost_train_CL' provided.
+
+1. Upload exisitng XBoost model
+
+  With an existing XGBoost model available in Json format, move it under the server folder in the job folder.
+  Example Path: /xgboost_train_CL/app_server
+
+  An example XGBoost model, 'example_xgboost_model.json' is provided in the template under the app_server folder where 
+  it contains 20 trees from previously trained.
+
+2. Submit job folder
+
+  The job folder has to be submitted through the admin console to the server to start the continuous learning process.
+
+  Run the command 'submit_job /path_to_job_folder/xgboost_train_CL' on the admin console, replacing the 
+  '/path_to_job_folder/xgboost_train_CL' to the absolute path of the xgboost_train_CL job folder.
+
+  After the job folder is submitted, it will display 'Submitted job' followed by the job id and you can observe
+  the server and clients performing the training.
+
+  This time the server will take any existing model located in the job folder and conduct continuous learning for
+  XGBoost, so the number of trees in the existing model will increase instead of training a new model.
+
+  An example XGBoost model, 'example_xgboost_model_after_CL.json' is provided that shows the number of trees increases
+  to 30 after performing an additional 5 rounds of training for a total of 2 clients.
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+step 1:
+Locate Client_1's start.sh script based on the path provided in the UN006_user_inputs.txt file
+
+step 2:
+Run the command 'chmod +x /home/ubuntu/DxD_site_1/startup/sub_start.sh'
+
+step 3:
+Run the command 'bash start.sh'
+
+step 4:
+Locate Client_2's start.sh script based on the path provided in the UN006_user_inputs.txt file
+
+step 5:
+Run the command 'chmod +x /home/ubuntu/DxD_site_2/startup/sub_start.sh'
+
+step 6:
+Run the command 'bash start.sh'

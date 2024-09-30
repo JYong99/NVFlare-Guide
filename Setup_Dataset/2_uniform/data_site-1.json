@@ -1,0 +1,17 @@
+{
+    "data_path": "/home/ubuntu/joel//Test.csv",
+    "data_index": {
+        "valid": {
+            "start": 0,
+            "end": 2
+        },
+        "site-1": {
+            "start": 2,
+            "end": 6
+        },
+        "site-2": {
+            "start": 6,
+            "end": 10
+        }
+    }
+}

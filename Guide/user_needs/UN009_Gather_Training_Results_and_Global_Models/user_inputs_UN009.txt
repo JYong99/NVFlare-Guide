@@ -1,0 +1,5 @@
+Information table
+
+Job's ID:                    The ID of the job that performed training or continuous learning of a XGBoost model.
+Admin's name:                The name of the admin configured during provision in email format.
+XGBoost model absolute path: The absolute path of the XGBoost model.

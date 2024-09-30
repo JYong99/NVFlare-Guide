@@ -1,0 +1,12 @@
+Information table
+
+---Add Client---
+name: DxD_site_3
+type: client
+org: DxD_3
+
+---Add User---
+name: admin2@dxd.com
+type: admin
+org: DxD
+role: DxD_project_admin

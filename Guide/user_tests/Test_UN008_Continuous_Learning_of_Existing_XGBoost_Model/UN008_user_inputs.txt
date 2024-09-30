@@ -1,0 +1,8 @@
+Information table
+
+Admin's name:             admin@dxd.com
+data_root_dir:            /home/ubuntu
+min_clients:              2
+num_rounds:               10
+Clients' name:            "DxD_site_1", "DxD_site_2"
+Job folder absolute path: /home/ubuntu/xgboost_train_CL

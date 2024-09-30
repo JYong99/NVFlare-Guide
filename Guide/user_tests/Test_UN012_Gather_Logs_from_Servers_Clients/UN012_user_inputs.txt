@@ -1,0 +1,9 @@
+Information table
+
+Job's ID:               f3a0227a-d013-4724-b681-df5efdfc7859
+Admin's name:           admin@dxd.com
+Server's log file path: /home/ubuntu/joel/workspace/DxD_FL/prod_00/admin@dxd.com/transfer/$job_id/workspace/log.txt.
+
+Clients' IP:            "ec2-54-179-196-255.ap-southeast-1.compute.amazonaws.com", "ec2-13-250-27-156.ap-southeast-1.compute.amazonaws.com"
+Clients' Name:          "DxD_site_1", "DxD_site_2"
+Clients' log file path: "/home/ubuntu/joel/$client1name/log.txt", "/home/ubuntu/joel/$client2name/log.txt"

@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Adding and Removing Participants
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Nvflare is installed
+2. There is an existing project.yml file
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+1. Open the existing project.yml file used to create the NVFlare workspace
+  
+2. Add or remove the details of the admin or client
+
+  ---Admin---
+  To add a new admin, include the details of the admin under the participants section, such as the 'name', 
+  'type', 'org', and 'role' into the project.yml file.
+
+  To remove an admin, the details of the admin under the participants section, such as the 'name', 'type', 
+  'org', and 'role' needs to be deleted from the project.yml file.
+
+  ---Client---
+  To add a new client, include the details of the client under the participants section, such as the 'name', 
+  'type', and 'org' into the project.yml file.
+
+  To remove a client, the details of the client under the participants section, such as the 'name', 'type', 
+  and 'org' needs to be deleted from the project.yml file.
+
+3. Create the new workspace
+
+  Delete any existing workspace previously created.
+  
+  With the project.yml file updated, run the provision.sh script, the new workspace will be created in the 
+  current directory with the newly added users and clients.
+--------------------------------------------------------------------------------------------------------

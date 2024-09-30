@@ -1,0 +1,14 @@
+step 1:
+Login to the admin console and enter the username prompt with the information provided in UN009_user_inputs.txt
+
+step 2:
+Run the command 'list_jobs' to display all the previously submitted jobs and their details
+
+step 3: 
+Noted down the job ID for XGBoost Training, details can be seen in UN009_user_inputs.txt
+
+step 4:
+Run the command 'download_job ae7998fa-a3fe-49f5-9726-56cbb71b1009'
+
+step 5:
+Located the XGBoost Json model at the path information in UN009_user_inputs.txt

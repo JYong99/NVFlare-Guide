@@ -1,0 +1,12 @@
+Information table
+
+---Add Client---
+    name: The name of the client
+    type: The type of participant (Client)
+    org:  The organisation of the client
+
+---Add User---
+    name: The email address of the admin
+    type: The type of participant (admin)
+    org:  The organisation of the admin
+    role: The role name of the admin

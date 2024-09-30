@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Transferring Necessary Files to Site Admins
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Nvflare is installed
+2. Completed provision and have the workspace generated
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+1. Locate the startup kits
+
+  Locate the startup kits of the clients which should be located in the workspace generated during provision.
+  Example path: /workspace/example_project_name/prod_00/
+  
+  Depending on the number of clients configured, ensure that there are the same number of folders each named 
+  after the clients' name configured in provision and contains the startup kit.
+
+2. Transfer the folders to their respective client
+  
+  Gather the necessary client's information such as IP address and destination path.
+  
+  It is up to the project admin decision for the method of transferring the startup kits to the clients, 
+  example methods such as using email or SCP to transfer the files.
+
+  Ensure that all the clients received the correct startup kits.
+--------------------------------------------------------------------------------------------------------

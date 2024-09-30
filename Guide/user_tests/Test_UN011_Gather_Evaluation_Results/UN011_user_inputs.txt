@@ -1,0 +1,5 @@
+Information table
+
+Job's ID:                    f3a0227a-d013-4724-b681-df5efdfc7859
+Admin's name:                admin@dxd.com
+XGBoost model absolute path: /home/ubuntu/workspace/DxD_FL/prod_00/admin@dxd.com/transfer/f3a0227a-d013-4724-b681-df5efdfc7859/workspace/cross_site_val/cross_val_results.json

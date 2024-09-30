@@ -1,0 +1,14 @@
+step 1:
+SSH into the AWS EC2 instance
+
+step 2:
+Upload the requirements.txt and setup.sh files at the location defined in UN004_user_input.txt file
+
+step 3:
+Run the command 'bash setup.sh' and wait for the system to reboot finish after installation
+
+step 4:
+SSH into the AWS EC2 instance
+
+step 5:
+Check that the packages and libraries have been installed successfully

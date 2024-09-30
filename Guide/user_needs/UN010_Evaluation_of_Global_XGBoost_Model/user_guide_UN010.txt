@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Evaluate the Global XGBoost Model
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Server, Admin & Clients services all started and successfully connected.
+2. Clients have the csv dataset available and named after the clients' 'name'.
+    -dataset: {site_name}.csv
+3. Server has a existing XGBoost model.
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+
+There are a few configuration to be made on the job folder template provided, "xgboost_evaluate_global".
+
+1. Edit job folder
+
+  Similar to UN007 and UN008, ensure that the sites' name is the same as the ones configure during provision
+
+  For the server config file, "config_fed_server", edit the model name in the variable "model_dir" but leave
+  the "app_server/" part. For example, if the model name is "example_model.json", 
+  model_dir = "app_server/example_model.json"
+
+  Remember to have the model that you plan to evaluate in the server folder, which can be seen in the example 
+  folder under the app_server.
+
+  For all the clients' config file, "config_fed_client", edit the variable "csv_dir" to the path of the dataset
+  for each client.
+
+2. Submit job folder
+
+  The job folder has to be submitted through the admin console to the server to start the evaluation process.
+
+  Run the command 'submit_job /path_to_job_folder/xgboost_evaluate_global' on the admin console, replacing the 
+  '/path_to_job_folder/xgboost_evaluate_global' to the absolute path of the xgboost_evaluate_global job folder.
+
+  After the job folder is submitted, it will display 'Submitted job' followed by the job id and you can observe
+  the server and clients performing the evaluation.
+--------------------------------------------------------------------------------------------------------

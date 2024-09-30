@@ -1,0 +1,4 @@
+Information table
+
+Update Script Path:      /home/ubuntu/update.sh
+Requirements File Path:  /home/ubuntu/requirements.txt

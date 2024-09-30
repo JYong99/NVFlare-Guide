@@ -1,0 +1,5 @@
+Information table
+
+Job's ID:                    ae7998fa-a3fe-49f5-9726-56cbb71b1009
+Admin's name:                admin@dxd.com
+XGBoost model absolute path: /home/ubuntu/workspace/DxD_FL/prod_00/admin@dxd.com/transfer/ae7998fa-a3fe-49f5-9726-56cbb71b1009/workspace/app_server/xgboost_model.json

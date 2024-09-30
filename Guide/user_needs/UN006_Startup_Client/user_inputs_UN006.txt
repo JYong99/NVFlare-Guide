@@ -1,0 +1,3 @@
+Information table
+
+Client's Start Script Path:   The absolute path of the start.sh file in the client's startup kit

@@ -1,0 +1,25 @@
+Information table
+
+name: To set the project name
+
+description: A short description about the project
+
+->  *Server*
+    name:           IPv4 address of the server
+    type:           The type of participant (Server)
+    org:            The organisation of the server
+    fed_learn_port: The port number assigned for NVFlare to perform federated learning
+    admin_port:     The port number assigned for NVFlare admin to connect to the server
+
+->  *Clients*
+    name: The name of the client
+    type: The type of participant (Client)
+    org:  The organisation of the client
+
+->  *Admin*
+    name: The email address of the admin
+    type: The type of participant (admin)
+    org:  The organisation of the admin
+    role: The role of the admin
+
+sp_end_point: The service provider end point to promote

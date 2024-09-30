@@ -1,0 +1,5 @@
+Information table
+
+Admin's Name:                 admin@dxd.com
+Server's Start Script Path:   /home/ubuntu/workspace/DxD_FL/prod_00/13.212.96.191/startup/start.sh
+Admin's fl_admin script Path: /home/ubuntu/workspace/DxD_FL/prod_00/admin@dxd.com/startup/fl_admin.sh

@@ -1,0 +1,6 @@
+Information table
+
+Startup Kit Path:       Absolute path of the startup kit folder
+Destination IP Address: The IP address of the client to transfer the startup kit folder
+Destination Path:       The absolute path of the client to transfer the startup kit folder
+Method of Transfer:     Method of transferring the startup kit folder

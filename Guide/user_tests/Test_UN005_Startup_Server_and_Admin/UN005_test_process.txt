@@ -1,0 +1,17 @@
+step 1:
+Locate the server's start.sh script based on the path provided in the UN005_user_inputs.txt file
+
+step 2:
+Run the command 'chmod +x /home/ubuntu/workspace/DxD_FL/prod_00/13.212.96.191/startup/sub_start.sh'
+
+step 3:
+Run the command 'bash start.sh' and wait for the service to startup
+
+step 4:
+Locate the admin's fl_admin.sh script based on the path provided in the UN005_user_inputs.txt file
+
+step 5:
+Run the command 'bash fl_admin.sh' and wait for the admin console to startup
+
+step 6:
+When the 'User Name:' prompt appears, typed in the admin's name located in UN005_user_inputs.txt file 

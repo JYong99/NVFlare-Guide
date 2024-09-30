@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Startup the Server & Admin
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Server & Admin Startup Kits Available
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+1. Startup the necessary services
+
+  ---Server---
+  Find the start.sh script which should be located in the server's startup kit under startup, where the 
+  startup kit's folder name is the server's 'name' configured during provision.
+  Example path: /workspace/example_project_name/prod_00/DxD_Server/startup/start.sh
+
+  Ensure that the sub_start.sh has execute access. If it does not, you can 
+  run the command 'chmod +x /workspace/example_project_name/prod_00/DxD_Server/startup/sub_start.sh'
+
+  Afterwards, run the command 'bash start.sh' and the Server service will startup.
+
+  ---Admin---
+  Ensure that the server service has already start before attempting to startup the admin service.
+
+  Find the fl_admin.sh script which should be located in the admin's startup kit under startup, where the 
+  startup kit's folder name is the server's 'name' configured during provision.
+  Example path: /workspace/example_project_name/prod_00/admin@dxd.com/startup/fl_admin.sh
+
+  Afterwards, run the command 'bash fl_admin.sh' and wait for the admin console to startup
+
+  A prompt 'User Name:' will appear and you will have to input the admin's 'name' configured during provision
+  which is in email format.
+
+  The admin console will be available for use in the terminal after successfully logging in.
+--------------------------------------------------------------------------------------------------------

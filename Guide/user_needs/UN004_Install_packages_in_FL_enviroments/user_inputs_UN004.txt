@@ -1,0 +1,4 @@
+Information table
+
+Setup Script Path:      The absolute path of the setup.sh script
+Requirements File Path: The absolute path of the requirements.txt file

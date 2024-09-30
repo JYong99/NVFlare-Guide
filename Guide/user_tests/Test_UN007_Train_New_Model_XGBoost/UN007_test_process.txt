@@ -1,0 +1,17 @@
+step 1:
+Edited the meta.conf based on the information provided in the UN007_user_inputs.txt file
+
+step 2:
+Edited the config_fed_server.conf based on the information provided in the UN007_user_inputs.txt file
+
+step 3:
+Edited the config_fed_client.conf based on the information provided in the UN007_user_inputs.txt file
+
+step 4:
+Log in to the admin console
+
+step 5:
+When the 'User Name:' prompt appears, typed in the admin's name located in the UN007_user_inputs.txt file
+
+step 5:
+Run the command 'submit_job /home/ubuntu/xgboost_train', path provided in the UN007_user_inputs.txt file

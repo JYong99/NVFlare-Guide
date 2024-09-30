@@ -1,0 +1,16 @@
+{
+    "name": "Cross_Valid",
+    "resource_spec": {},
+    "deploy_map": {
+        "server": [
+            "server"
+        ],
+        "site-1": [
+            "site-1"
+        ],
+        "site-2": [
+            "site-2"
+        ]
+    },
+    "min_clients": 2
+}

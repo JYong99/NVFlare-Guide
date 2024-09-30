@@ -1,0 +1,3 @@
+Information table
+
+Admin's name:                  The name of the admin configured during provision in email format.

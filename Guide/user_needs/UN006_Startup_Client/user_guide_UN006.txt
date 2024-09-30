@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Startup the Client
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Client Startup Kits Distributed & Available
+2. Server service has startup
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+1. Startup the necessary services
+
+  ---Client---
+  Find the start.sh script which should be located in the client's startup kit under startup, where the 
+  startup kit's folder name is the client's 'name' configured during provision.
+  Example path: /site-1/startup/start.sh
+
+  Ensure that the sub_start.sh has execute access. If it does not, you can 
+  run the command 'chmod +x /site-1/startup/sub_start.sh'
+
+  Afterwards, run the command 'bash start.sh' and the Client service will startup.
+--------------------------------------------------------------------------------------------------------

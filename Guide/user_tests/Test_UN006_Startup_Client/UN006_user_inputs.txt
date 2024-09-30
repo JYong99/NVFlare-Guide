@@ -1,0 +1,4 @@
+Information table
+
+Client_1's Start Script Path:   /home/ubuntu/DxD_site_1/startup/start.sh
+Client_2's Start Script Path:   /home/ubuntu/DxD_site_2/startup/start.sh

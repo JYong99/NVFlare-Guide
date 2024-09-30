@@ -1,0 +1,5 @@
+Information table
+
+Admin's Name:                 The name of the admin configured during provision in email format 
+Server's Start Script Path:   The absolute path of the start.sh file in the server's startup kit
+Admin's fl_admin script Path: The absolute path of the fl_admin.sh file in the admin's startup kit 

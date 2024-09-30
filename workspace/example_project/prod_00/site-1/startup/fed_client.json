@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "servers": [
+    {
+      "name": "example_project",
+      "service": {
+        "scheme": "grpc"
+      }
+    }
+  ],
+  "client": {
+    "ssl_private_key": "client.key",
+    "ssl_cert": "client.crt",
+    "ssl_root_cert": "rootCA.pem"
+  },
+  "overseer_agent": {
+    "path": "nvflare.ha.dummy_overseer_agent.DummyOverseerAgent",
+    "args": {
+      "sp_end_point": "ip-10-0-11-18.ap-southeast-1.compute.internal:8004:8005"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+step 1:
+Login to the admin console and enter the username prompt with the information provided in UN014_user_inputs.txt
+
+step 2:
+Run the command "check_status server" in the admin console, shows "Registered clients: 2"
+
+step 3:
+Run the command "shutdown client" in the admin console, prompt to enter User Name appears, entered the admin's name 
+based on the information provided in UN014_user_inputs.txt
+
+step 4:
+Run the command "check_status server" in the admin console, shows "Registered clients: 0", clients successfully shutdown
+
+step 5:
+Run the command "shutdown client" in the admin console, prompt to enter User Name appears, entered the admin's name 
+based on the information provided in UN014_user_inputs.txt
+
+step 6:
+Console log shows "FL app has been shutdown", and end with a "Goodbye!" message

@@ -1,0 +1,30 @@
+Information table
+
+->  name: DxD_FL
+
+->  description: DxD Federated Learning project yaml file
+
+->  Server
+    name:           13.212.96.191
+    type:           server
+    org:            DxD
+    fed_learn_port: 8004
+    admin_port:     8005
+
+->  Client 1:
+    name: DxD_site_1
+    type: client
+    org:  DxD_1
+
+->  Client 2:
+    name: DxD_site_2
+    type: client
+    org:  DxD_2
+
+->  Admin:
+    name: admin@dxd.com
+    type: admin
+    org:  DxD
+    role: DxD_project_admin
+
+->  sp_end_point: 13.212.96.191:8004:8005

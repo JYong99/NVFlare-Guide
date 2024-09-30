@@ -1,0 +1,13 @@
+Information table
+
+---Client_1---
+Startup Kit Path:       /home/ubuntu/workspace/DxD_FL/prod_00/site-1
+Destination IP Address: 54.179.196.255
+Destination Path:       /home/ubuntu
+Method of Transfer:     SCP
+
+---Client_2---
+Startup Kit Path:       /home/ubuntu/workspace/DxD_FL/prod_00/site-2
+Destination IP Address: 13.250.27.156
+Destination Path:       /home/ubuntu
+Method of Transfer:     SCP

@@ -1,0 +1,31 @@
+{
+    "name": "Cross_Valid",
+    "resource_spec": {},
+    "deploy_map": {
+        "server": [
+            "server"
+        ],
+        "site-1": [
+            "site-1"
+        ],
+        "site-2": [
+            "site-2"
+        ]
+    },
+    "min_clients": 2,
+    "submitter_name": "admin@nvidia.com",
+    "submitter_org": "nvidia",
+    "submitter_role": "project_admin",
+    "job_folder_name": "Global_valid",
+    "job_id": "09055165-fd9a-406d-820b-94587a76fbe1",
+    "submit_time": 1709707927.3748298,
+    "submit_time_iso": "2024-03-06T06:52:07.374830+00:00",
+    "start_time": "",
+    "duration": "N/A",
+    "status": "SUBMITTED",
+    "schedule_history": [
+        "2024-03-06 06:52:08: scheduled"
+    ],
+    "schedule_count": 1,
+    "last_schedule_time": 1709707928.061193
+}

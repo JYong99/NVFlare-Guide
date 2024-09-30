@@ -1,0 +1,23 @@
+step 1:
+Edited the meta.conf based on the information provided in the UN008_user_inputs.txt file
+
+step 2:
+Edited the config_fed_server.conf based on the information provided in the UN008_user_inputs.txt file
+
+step 3:
+Edited the config_fed_client.conf based on the information provided in the UN008_user_inputs.txt file
+
+step 4:
+Uploaded the 'xgboost_model.json' file to the app_server folder in the job folder
+
+step 5:
+Log in to the admin console
+
+step 6:
+When the 'User Name:' prompt appears, typed in the admin's name located in the UN008_user_inputs.txt file
+
+step 7:
+Run the command 'submit_job /home/ubuntu/xgboost_train_CL', path provided in the UN008_user_inputs.txt file
+
+step 8:
+Observe the 'xgboost_model_after_CL.json' file to see an increase to 30 trees for the model

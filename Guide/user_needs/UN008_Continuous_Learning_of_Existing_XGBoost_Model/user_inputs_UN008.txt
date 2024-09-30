@@ -1,0 +1,8 @@
+Information table
+
+Admin's name:             The name of the admin configured during provision in email format.
+data_root_dir:            The absolute path of the folder containing the header and dataset csv files
+min_clients:              The minimum number of clients needed to perform the training.
+num_rounds:               The number of rounds to perform continuous learning on the existing model.
+Clients' name:            All the clients' name that will be part of the training process.
+Job folder absolute path: The absolute path of the job folder to be submitted to the server.

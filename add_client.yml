@@ -1,0 +1,11 @@
+name: new-site123
+org: nvidia
+components:
+  resource_manager:    # This id is reserved by system.  Do not change it.
+    path: nvflare.app_common.resource_managers.gpu_resource_manager.GPUResourceManager
+    args:
+      num_of_gpus: 1
+      mem_per_gpu_in_GiB: 4
+  resource_consumer:    # This id is reserved by system.  Do not change it.
+    path: nvflare.app_common.resource_consumers.gpu_resource_consumer.GPUResourceConsumer
+    args:

@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Gather Evaluation Results
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Server, Admin & Clients services all started and successfully connected.
+2. Performed UN010, have evaluation results ready to retrieve.
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+
+1. Login to the admin console 
+ 
+  Access the admin console by running the command 'bash fl_admin.sh' 
+
+2. Identify the job ID
+  
+  Run the command 'list_jobs' in the admin console and it will display all the previously submitted jobs
+  together with their job's ID.
+
+  Identify the job id that was tasked to perform evaluation.
+
+3. Download workspace
+
+  To download the job's workspace, run the command 'download_job Job_ID' in the admin console, where 
+  Job_ID is the ID identified in step 2.
+
+  The workspace will be downloaded to the admin's transfer folder under the job's ID.
+  You will be able to access the evaluation results under the job's ID folder.
+  Example path: /workspace/DxD_FL/prod_00/admin@dxd.com/transfer/Job_ID/workspace/cross_site_val/cross_val_results.json
+
+  An example evaluation result, 'example_cross_val_results.json' is provided.
+--------------------------------------------------------------------------------------------------------

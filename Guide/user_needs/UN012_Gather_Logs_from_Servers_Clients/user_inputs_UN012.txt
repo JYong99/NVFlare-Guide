@@ -1,0 +1,9 @@
+Information table
+
+Job's ID:               The ID of the job to retrieve the logs.
+Admin's name:           The name of the admin configured during provision in email format.
+Server's log file path: The absolute path of the log file for the server.
+
+Clients' IP:            All the IP address of the clients.
+Clients' Name:          All the names of the clients configured during provision.
+Clients' log file path: All the absolute path of the log file for each client.

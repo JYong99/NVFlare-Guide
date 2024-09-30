@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Update the Necessary Packages and Libraries
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. An AWS EC2 instance with all packages and libraries installed
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+1. Access into the AWS EC2 instance
+
+2. Upload the necessary files
+
+  Ensure that the EC2 instance have both the requirements.txt and update.sh file and 
+  both the files are located under the same directory.
+
+3. Update necessary packages and libraries
+
+  Run the commnad 'bash update.sh' and all the necessary installation will be performed.
+  Any prompt that appears during the installation have to be manually accept by the user.
+
+  After the installation, the terminal will echo 'Rebooting System' and the whole system will restart.
+
+4. Reconnect to AWS EC2 instance
+
+  Wait for a few seconds and reconnect to the AWS EC2 instance.
+
+  After accessing the instance, ensure that the packages are installed updated.
+--------------------------------------------------------------------------------------------------------

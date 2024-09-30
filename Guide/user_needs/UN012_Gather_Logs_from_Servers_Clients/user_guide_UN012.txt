@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Gather Logs from Server and Clients
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Server, Admin & Clients services all started and successfully connected.
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+
+1. Login to the admin console 
+ 
+  Access the admin console by running the command 'bash fl_admin.sh' 
+
+2. Identify the job ID
+  
+  Run the command 'list_jobs' in the admin console and it will display all the previously submitted jobs
+  together with their job's ID.
+
+  Identify the job id that you require the logs.
+
+3. Download workspace
+
+  To download the job's workspace, run the command 'download_job Job_ID' in the admin console, where 
+  Job_ID is the ID identified in step 2.
+
+4. Retrieve all logs
+
+  Configure the retrieve.sh script variables. Details of the variables to edit can be found in user_inputs_UN012.txt.
+
+  Run the command 'bash retrieve.sh', it will create a new directory and gather all the logs from both server and
+  client for that specific job ID.
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------------------------------
+Steps to Perform Provision for NVFlare non-HA
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Prerequisites:
+1. Nvflare is installed
+2. project.yml file is generated:
+  a. To get the project.yml generated from NVFlare
+  b. Type "$nvflare provision" and choose either option 1 for HA mode, or 2 for non-HA mode
+  c. The project.yml file should be generated at the current directory
+  d. Examples of HA and non-HA yaml files can be found in the current directory
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Instructions:
+1. Configuring the Server
+
+  Change the name of the server to the public-ipv4 of the AWS instance, which can
+  be found by typing this command into the terminal "$ec2metadata" and it will show the
+  public-ipv4 address.
+
+  Afterwards dedicate 2 ports available for NVFlare use, the fed_learn_port and the admin_port.
+
+  The configuration, 'org', can be changed to any organisation, but the 'type' should remain as server.
+
+  For example, ipv4 is 13.212.96.191, 'org' is DxD and dedicated ports are 8002 and 8003 
+  for the fed_learn_port and admin_port respectively.
+
+  Example:
+  - name: dxd-WS1
+    type: 13.212.96.191
+    org: DxD
+    fed_learn_port: 8004
+    admin_port: 8005
+    
+2. Configuring the Clients
+
+  Clients' 'name' and 'org' can be changed to any name or organization as needed , but 'type' should remain as client.
+
+  Example:
+  - name: site-1
+    type: client
+    org: DxD_1
+  - name: site-2
+    type: client
+    org: DxD_2
+
+3. Configure the Admin.
+
+  The 'name' of the admin has to be in email format, if not the provision will not go through. 
+
+  Admin's 'role' and 'type' should remain as 'project_admin' and 'admin' respectively.
+  Changing to other role and type will remove admin priviledges.
+
+  Admin's 'org' can be changed to any organization
+  
+  Example:
+  - name: admin@dxd.com
+    type: admin
+    org: DxD
+    role: project_admin
+
+4. Configure the sp_end_point.
+
+  The sp_end_point has to be changed to the format of server's name followed by the two ports to be used, 
+  server:fl_port:admin_port
+    
+  Example:
+  sp_end_point: 13.212.96.191:8004:8005 
+
+5. Create the Workspace.
+
+  Run the provision.sh script, the workspace will be created in the current directory.  
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Optional:
+You can also change the name and description at the top of the yaml file
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+step 1:
+Edited the meta.conf for app_site_1 and app_site_2 to be the correct clients' name, information in UN010_user_inputs.txt
+
+step 2:
+Edited the config_fed_server.conf, changing the model_dir to the correct XGBoost json model name.
+
+step 3:
+Edited the config_fed_client.conf for DxD_site_1, changing the csv_dir to the path provided in the UN010_user_inputs.txt
+
+step 4:
+Edited the config_fed_client.conf for DxD_site_2, changing the csv_dir to the path provided in the UN010_user_inputs.txt
+
+step 5:
+Login to the admin console and enter the username prompt with the information provided in UN010_user_inputs.txt
+
+step 6:
+Run the command 'submit_job /home/ubuntu/xgboost_evaluate_global', path provided in the UN010_user_inputs.txt

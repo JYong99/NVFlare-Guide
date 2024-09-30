@@ -1,0 +1,7 @@
+Information table
+
+Model Name:                   xgboost_model.json
+Sites' dataset absolute path: "/home/ubuntu/DxD_site_1.csv", "/home/ubuntu/DxD_site_2.csv"
+Clients' Names:               "DxD_site_1", "DxD_site_2"
+Admin's name:                 admin@dxd.com
+Job folder absolute path:     /home/ubuntu/xgboost_evaluate_global

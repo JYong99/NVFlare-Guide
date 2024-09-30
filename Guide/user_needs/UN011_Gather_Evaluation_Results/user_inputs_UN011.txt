@@ -1,0 +1,5 @@
+Information table
+
+Job's ID:                      The ID of the job that performed evaluation of a global XGBoost model.
+Admin's name:                  The name of the admin configured during provision in email format.
+Evaluation file absolute path: The absolute path of the evaluation json file.
